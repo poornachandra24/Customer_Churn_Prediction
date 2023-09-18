@@ -1,3 +1,3 @@
 # Churn_Analysis
 End to end process of EDA, ML Model building and deployment using flask  
-on churn data provided by by sunbasetechnologies
+on churn data 
