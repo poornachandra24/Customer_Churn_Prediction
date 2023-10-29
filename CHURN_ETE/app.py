@@ -20,9 +20,9 @@ def predict():
     inputQuery1 = int(request.form['query1'])
     inputQuery2 = request.form['query2']
     inputQuery3 = request.form['query3']
-    inputQuery4 = int(request.form['query1'])
-    inputQuery5 = float(request.form['query1'])
-    inputQuery6 = int(request.form['query1'])
+    inputQuery4 = int(request.form['query4'])
+    inputQuery5 = float(request.form['query5'])
+    inputQuery6 = int(request.form['query6'])
 
     # Load the pre-trained XGBoost model
     model = xgb.Booster()
